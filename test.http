@@ -1,0 +1,7 @@
+POST http://localhost:5000/evaluate
+Content-Type: application/json
+
+{
+  "question": "Detect if a cycle exists in a linked list.",
+  "answer": "Use slow and fast pointer"
+}
