@@ -16,6 +16,14 @@ A full-stack AI-powered interview preparation platform.
 React → Node → FastAPI → Gemini
 
 ## How to Run
-1. Start FastAPI (port 8000)
-2. Start Node (port 5000)
-3. Start React (port 3000)
+### 1. Start FastAPI
+cd ai-service
+uvicorn main:app --reload
+
+### 2. Start Node
+cd backend
+node server.js
+
+### 3. Start React
+cd frontend
+npm start
