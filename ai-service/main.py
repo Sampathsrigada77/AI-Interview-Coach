@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-client = genai.Client(api_key="AIzaSyBtnMiiFlbI9iMQuOX2OFS6FOBMJaGMeg4")
+client = genai.Client(api_key="YOUR_API_KEY")
 
 class AnswerRequest(BaseModel):
     question: str
